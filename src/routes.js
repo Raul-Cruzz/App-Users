@@ -11,8 +11,8 @@ function Routes(){
     return (
         <Router>
             <Switch>
-                <Route exact path='/' Component={Home} />
-                <Route exact path='/usuarios' Component={Users} />
+                <Route exact path="/" component={Home} />
+                <Route exact path="/usuarios" component={Users} />
             </Switch>
         </Router>
     

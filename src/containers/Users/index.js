@@ -7,12 +7,13 @@ import Avatar from '../../assets/image-pessoas.svg';
 import Arrow from '../../assets/image-seta.svg';
 import Trash from '../../assets/image-lixeira.svg';
 
+import H1 from '../../components/title'
+import ContainerItens from '../../components/containersItens';
+import Button from '../../components/Button';
+
 import { 
   Container, 
-  H1,
   Image, 
-  ContainerItens, 
-  Button,
   User
  } from './styles';
 
@@ -36,13 +37,13 @@ function Users () {
   async function deleteUser(userId) {
     await axios.delete(`http://localhost:3001/users/${userId}`)
 
-    const newUser = Users.filter( user => user.id !== userId )
+    const newUser = Users.filter( user => user.id != userId )
 
     setUsers(newUser)
   }
 
   function goBackPage(){
-    history.push("/")
+    history.goBack()
   }
 
   
@@ -50,8 +51,8 @@ function Users () {
 
     <Container>
       <Image alt="logo-imagem" src={Avatar}/>
-      <ContainerItens>
-      <H1>Usuários</H1>
+      <ContainerItens isBlur={true}>
+      <H1>usuarios</H1>
 
         <ul>
             {Users.map((user) => (
@@ -62,7 +63,7 @@ function Users () {
             ))}
         </ul>
 
-        <Button onClick={goBackPage}><img alt='seta' src={Arrow} /> Voltar </Button>
+        <Button isBack={true} onClick={goBackPage}><img alt='seta' src={Arrow} /> Voltar </Button>
 
       </ContainerItens>
     </Container>
