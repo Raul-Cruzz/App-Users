@@ -1,5 +1,6 @@
 [ Projeto Online, experimente agora! ](https://app-users-log.netlify.app/)
-<h1 align="center"> Web site - Cadastro Usuários</h1>
+<h1 align="center"> Web site - Cadastro Usuários</h1>,
+
 
 <br>
 
@@ -21,11 +22,11 @@
 
 <br>
 
-##  Sobre o projeto
+##  Sobre o projeto:
 
 Este site em forma de aplicativo cadastra os dados do usuário e permite que o mesmo tenha acesso aos registros! O código HTML define a estrutura da página, enquanto o código CSS fornece estilos para os elementos da página e o código JavaScript implementa a lógica, como a interação dos elementos e componentes da página web, e o consumo da API para trazer as informações em tempo real. Criando as interfaces da página web com o framework React.
 
-##  Tecnologias
+##  Tecnologias:
 
 
 - ![ HTML5 ](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white): utilizado para estruturar a página web, definindo os elementos, tags e suas próprias funções.
