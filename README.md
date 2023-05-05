@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+[ Projeto Online, experimente agora! ](https://app-users-log.netlify.app/)
+<h1 align="center"> Web site - Cadastro Usuários</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+<h3 align="center">
+  Interaja com essa página web, cadastrando os seus dados e tendo acesso aos registros!
+</h3>
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
 
-### `npm test`
+![App-Users](https://user-images.githubusercontent.com/99486037/236361297-2b25277a-54f6-4941-bdfd-e1f7907d3260.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+</div> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Sobre o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este site em forma de aplicativo cadastra os dados do usuário e permite que o mesmo tenha acesso aos registros! O código HTML define a estrutura da página, enquanto o código CSS fornece estilos para os elementos da página e o código JavaScript implementa a lógica, como a interação dos elementos e componentes da página web, e o consumo da API para trazer as informações em tempo real. Criando as interfaces da página web com o framework React.
 
-### `npm run eject`
+##  Tecnologias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- ![ HTML5 ](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white): utilizado para estruturar a página web, definindo os elementos, tags e suas próprias funções.
+- ![ CSS3 ](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3) : utilizado para estilizar a página, definindo as cores, fontes, recursos e emoções dos elementos.
+- ![ JavaScript ](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript): utilizado para realizar a interação dos elementos e componentes, dando vida à página web.
+- ![  REACT ](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB): Criando as interfaces da página web com o framework React.
+- ![ NODE.JS ](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white): Consumindo uma API com node js para trazer os dados em tempo real.
+- ![ INSOMNIA ](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white): Realizando teste de Rota entre cliente & servidor.
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/d76cde39-fc24-47e2-a66a-5040c1ff975b/deploy-status)](https://app.netlify.com/sites/app-users-log/deploys): Implantação do site.
+- ![ GITHUB ](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white): Hospedando os Códigos na plataforma GitHub.
+<br>
